@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PREPROXY - preproxy proxy details</title>
+	<title>PREPROXY - preproxy proxy explained</title>
 <meta name="viewport" content="width=device-width">
-<meta name="keywords" content="automatic,authorization,authentication,parent proxy,kerberos,NTLM,authoxy,Mac,macOS,OS X" />
-<meta name="generator" content="Jekyll v3.7.3" />
+<meta name="keywords" content="authorization, authentication, automatic, parent proxy, kerberos, NTLM, authoxy, Mac, OS X, preproxy, CURLOPT_PRE_PROXY" />
 <meta property="og:title" content="Preproxy" />
-<meta name="author" content="Eugene Homyakov" />
+<meta name="author" content="waqar3" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Software Developer" />
-<meta property="og:description" content="Software Developer" />
+<meta name="description" content="Preproxy automatic authentication and shell curl curlopt_pre_proxy setup and other proxy details explained." />
+<meta property="og:description" content="Preproxy automatic authentication and shell curl curlopt_pre_proxy setup and other proxy details explained." />
+<style type="text/css">
+header footer{
+	width: 98%;
+	margin: auto;
+}
+#container {
+  
+	width: 99%;
+    margin: auto;
+}
+#proxy-text{
+	width: 65%;
+
+}
+#proxy-left{
+	float: left;
+
+	}
+</style>
 </head>
 <body>
 	<content>
 		<header>
 			<h1>Preproxy</h1>
 		</header>
-		<div id="proxy-page"></div>
+		<div id="container">
+		<div id="proxy-text"></div>
 		<p>There are three major preproxy resources available online, these and other top resources either belong to github preproxy projects and pages or to proxy sites, interestingly there are some totally irrelevant resources as domain stats website and curl CURLOPT_PRE_PROXY information resorces, here CURLOPT_PRE_PROXY can be given some bonus points as users do look for curl options and one of such option happens to be about proxy setting with name of preproxy. Anyway as you can see most of preproxy web resources on internet, here are top three proxy and github preproxy resources.</p>
 		<p>
 			<h2>GitHub - lathiat/preproxy: pre-exec proxy determination for bash</h2>
+			Lathiat's preproxy script let you set up proxy variables of shell, these proxy varialbles gets set automatically. Default configuration automatically determines to use proxy or not. Configuration example is provided on <a href="https://github.com/lathiat/preproxy">github repository</a> along with credits to Ryan Caloras for bash-preexe.sh shell script.
+
 		</p>
 		<p>
 			<h2>Preproxy · Eugene Homyakov</h2>
+			A macOS app about preproxy with authorization, automatic authentication and setting of parent proxy. Available on mac app store for under $3, <a href="https://hamstergene.github.io/macapps/preproxy/">Eugene Homyakov's</a> preproxy is actually based on authoxy, authoxy is no more maintained so only option available on OS X is this proxy.
 		</p>
 		<p>
 			<h2>Preproxy Enter URL to browse via proxy site - 1k+ web proxies</h2>
+			preproxy.com has a long list of proxy, instead of openig diffrent proxy and checking it if it works <a href="https://preproxy.com/">Preproxy</a> takes the hassel out by automatically checking all proxy and setting the user to their entered web address directly on their choosen or a randomly picked proxy.
 		</p>
 		<p>
 			<h2>Preproxy - Bonus resource</h2>
 			<h3>CURLOPT_PRE_PROXY</h3>
+			CURLOPT_PRE_PROXY is explained in detail <a href="https://curl.haxx.se/libcurl/c/CURLOPT_PRE_PROXY.html">here</a>, user can check socks, ipv4, ipv6, CURLPROXY_SOCKS5_HOSTNAME and other preproxy related shell setting. It can be used as manual to set up proxy on ubuntu/linux distributions.
 		</p>
-		<div id="left-side"></div>
-		<footer></footer>
+		<div id="proxy-side">
+			<h3>Proxy Browse</h3>
+        	<script type="text/javascript" src="https://preproxy.com/proxy.js"></script>
+			</div>
+		</div>
+		<footer>Thanks to lathiat <a href="https://github.com/waqar3/preproxy">preproxy script</a></footer>
 	</content>
 
 </body>
